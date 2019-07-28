@@ -80,6 +80,8 @@ test:
 #
 production:
   <<: *default
-  database: laviared_production
-  username: laviared
-  password: <%= ENV['LAVIARED_DATABASE_PASSWORD'] %>
+  # database: laviared_production
+  # username: laviared
+  # password: <%= ENV['LAVIARED_DATABASE_PASSWORD'] %>
+  url: <%= ENV['POSTGRESQL_ADDON_URI'] %>
+
