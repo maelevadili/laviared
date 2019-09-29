@@ -32,7 +32,7 @@ gem 'jbuilder', '~> 2.5'
 # Simple Form
 gem 'simple_form'
 # Devise
-gem 'devise'
+gem 'devise', '~> 4.7.1'
 
 # Use Capistrano for deployment
 # gem 'capistrano-rails', group: :development
